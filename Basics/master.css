@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+}
+li{
+    color: rgb(170, 194, 33);
+}
+h4{
+    color: #FF0000;
+}
+
+h3{
+    color: rgba(255, 0, 225, 1);
+}
+body{
+    background-image: url(https://wallpaperplay.com/walls/full/4/c/b/258530.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+p{
+    color: white;
+}
+span{
+    color: aqua;
+}
+div{
+    color: blue;
+    border: green;
+    border-style: dashed;
+    border-width: 5px;
+    
+}
