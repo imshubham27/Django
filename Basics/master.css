@@ -1,9 +1,9 @@
 h1{
     color: blue;
 }
-li{
+/* li{
     color: rgb(170, 194, 33);
-}
+} */
 h4{
     color: #FF0000;
 }
@@ -17,7 +17,8 @@ body{
     background-size: auto;
 }
 p{
-    color: white;
+    font-family: 'Comic Neue', cursive;
+    color: rgb(255, 255, 255);
 }
 span{
     color: aqua;
@@ -26,6 +27,65 @@ div{
     color: blue;
     border: green;
     border-style: dashed;
-    border-width: 5px;
-    
+    border-width: 5px; 
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
 }
+
+.firstdiv {
+    background-color: aqua;
+    color: rgb(0, 255, 42);
+    font-size: larger;
+}
+
+.seconddiv {
+    color: antiquewhite;
+    font-size: smaller;
+}
+
+#one {
+    color: rgb(255, 47, 47);
+}
+
+h3 + ul{
+    color: blueviolet;
+    border-width: 5px;
+}
+
+li a{
+    color: gold;
+}
+.two{
+    color: palevioletred;
+}
+#three{
+    color: greenyellow;
+    font-family: 'Oswald', sans-serif;
+}
+.Fir{
+    color: black;
+    font-weight: 200;
+    font-size: 2em;
+    border: 10px;
+    border-style: solid;
+    border-color: teal;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.Sec{
+    color: black;
+    font-weight: 200;
+    font-size: 2em;
+    border: 10px;
+    border-style: solid;
+    border-color: teal;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ID HAS HIGHER SPECIFITY THAN CLASS */
+
