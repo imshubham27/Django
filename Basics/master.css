@@ -87,5 +87,32 @@ li a{
     padding: 20px;
 }
 
-/* ID HAS HIGHER SPECIFITY THAN CLASS */
+#CP{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 80px;
+    text-align: center;
+    color: aquamarine;
+}
+.tbl{
+    margin: auto;
+}
+#CP1{
+    height: 100px;
+    background-color: black;
+    width: 100px;
+    border: 10px white solid;
+}
+#CP2{
+    height: 100px;
+    background-color: gold;
+    width: 50px;
 
+}#CP3{
+    height: 100px;
+    background-color: red;
+    width: 50px;
+}
+
+/* ID HAS HIGHER SPECIFITY THAN CLASS */
+/* Margin is used in an element to create distance between that element and other elements of page. Where padding is used to create distance between content and border of an element.
+Margin is not part of an element where padding is part of element. */
