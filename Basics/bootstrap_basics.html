@@ -6,14 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
     <title>Hello, world!</title>
   </head>
-  <body>
-    <div class="container-fluid">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
-        <!-- Content here -->
-      </div>
-  </body>
+  <style>
+    .boxy{
+      border: 5px solid black;
+      margin: auto;
+    }
+  </style>
+  <div class="container border bg-dark text-white">
+    <h1>My First Bootstrap Page</h1>
+    <p>This is some text.</p>
+  </div>
+  <div class="row">
+    <div class="col boxy">
+      ONE CONTAINER
+      <p class="blockquote">SHUBHAM</p>
+    </div>
+    <div class="col boxy"><kbd>TWO</kbd> <code>CONTAINER</code></div>
+    <div class="col boxy">
+      <p class="text-danger"> THREE </p>CONTAINER</div>
+  </div>
+
+
 </html>
