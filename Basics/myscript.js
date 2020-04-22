@@ -37,10 +37,30 @@
 // a=[1,2,3,4,5]
 // multiple(1,2,3,4,5);
 
-setTimeout(function(){ 
-    // var p=document.querySelector("p");
-    // p.innerHTML="<strong>HI</strong>";
-    var c=document.querySelector("p");
-    var d=c.querySelector("a");
-    d.setAttribute("href","https://www.facebook.com");
- }, 2000);
+// setTimeout(function(){ 
+//     // var p=document.querySelector("p");
+//     // p.innerHTML="<strong>HI</strong>";
+//     var c=document.querySelector("p");
+//     var d=c.querySelector("a");
+//     d.setAttribute("href","https://www.facebook.com");
+//  }, 2000);
+
+var a= document.querySelector("#ONE");
+var b= document.querySelector("#TWO");
+var c= document.querySelector("#THREE");
+console.log("CONNECTED");
+
+a.addEventListener('mouseover',function(){
+    a.textContent="ONE";
+    a.style.color="red";
+})
+
+a.addEventListener("mouseout",function(){
+    a.textContent="ONE";
+    a.style.color="black";
+})
+
+b.addEventListener('dblclick',function(){
+    b.textContent="CLICKED";
+    b.style.color="blue";
+})
